@@ -1,6 +1,6 @@
 /**
- * Example for sending temperature and humidity
- * to the cloud using the SHT25 and ESP8266
+ * Example for sending AC current data
+ * to the cloud using the ncd.io ac current monit and ESP8266
  *
  * Copyright (c) 2016 Losant IoT. All rights reserved.
  * https://www.losant.com
@@ -22,12 +22,12 @@ float current_ch2;
 float current1;
 float current2;
 
-const char* ssid = "NETGEAR34";
-const char* password = "sillyviolet195";
+const char* ssid = "XX";
+const char* password = "XX";
 
-const char* LOSANT_DEVICE_ID = "5a7a34832ae5d40007a2fa02";
-const char* LOSANT_ACCESS_KEY = "924c47cb-50ad-410b-8d97-5a87ee0e4f3f";
-const char* LOSANT_ACCESS_SECRET = "a7ad500533adf2fde5901c275072e58823914131f4574a8b4327e3432597b92a";
+const char* LOSANT_DEVICE_ID = "XX";
+const char* LOSANT_ACCESS_KEY = "XX";
+const char* LOSANT_ACCESS_SECRET = "XX";
 WiFiClientSecure wifiClient;
 
 LosantDevice device(LOSANT_DEVICE_ID);
